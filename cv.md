@@ -32,8 +32,8 @@ function updateLight(current) {
 ```
 ---
 ## Education
-* Polessky State University, Software engineering.
-* Course HtmlAcademy.
+* Polessky State University, Software engineering;
+* HtmlAcademy course.
 ---
 ## Languages
 * **Russian:** native language
