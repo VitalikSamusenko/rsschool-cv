@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav__links">
+                    <li class="nav__item"><a href="#profile">Profile</a></li>
+                    <li class="nav__item"><a href="#education">Education</a></li>
+                    <li class="nav__item"><a href="#contact">Contact</a></li>
+                    <li class="nav__item"><a href="#skills">Skills</a></li>
+                    <li class="nav__item"><a href="#experience">Experience</a></li>
+                    <li class="nav__item"><a href="#code-example">Code Example</a></li>
+                    <li class="nav__item"><a href="#languages">Languages</a></li>
+                    <li class="nav__item"><a href="#educational-project">Educational Projects</a></li>
+                </ul>
+            </nav>
+            <div class="header__wrapper">
+                <div class="header__img">
+                    <img src="./img/photo.jpg" alt="photo">
+                </div>
+                <div class="header__text">
+                    <h1 class="header__name">Vitalik <span>Samusenko</span></h1>
+                    <div class="header__profession">Software Engineer</div>
+                    <section class="profile" id="profile">
+                        <h2 class="title">Profile</h2>
+                        <hr class="line">
+                        <div class="profile__text">
+                            My name is Vitalik, I am 24 years old. I was born and live in Gomel.
+In 2012 he entered the Gomel State Agrarian and Economic College, after graduation he entered the Polessky State University. There he received the specialty of a software engineer. Now I am taking JS / FE Pre-School 2022 course to become a Front-end developer.
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+        </div>
+   
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main__wrapper">
+                <div class="left">
+                    <section class="education" id="education">
+                        <div class="wrapper">
+                            <h2 class="title">Education</h2>
+                        <hr class="line">
+                        <div class="education__institution">
+                            <div class="education__years">2016-2019</div>
+                            <div class="education__name">Software Engineer, Information Technology</div>
+                            <div class="education__place">
+                                Polessky State University
+                            </div>
+                        </div>
+                        <div class="education__institution">
+                            <div class="education__years">2012-2016</div>
+                            <div class="education__name">Software Technician, Information Technology</div>
+                            <div class="education__place">
+                                Gomel State Agrarian and Economic College
+                            </div>
+                        </div>
+                        </div>
+                    </section>
+                    
+                    <section class="contact" id="contact">
+                        <div class="wrapper">
+                            <h2 class="title">Contact</h2>
+                            <hr class="line">
+                            <ul class="contact__list">
+                                <li class="contact__item">
+                                    <div class="contact__header">Location</div>
+                                    <div class="contact__text">Gomel, Belarus</div>
+                                </li>
+                                <li class="contact__item">
+                                    <div class="contact__header">Phone</div>
+                                    <div class="contact__text"><a href="tel:+375336776258">+375336776258</a></div>
+                                </li>
+                                <li class="contact__item">
+                                    <div class="contact__header">Email</div>
+                                    <div class="contact__text"><a href="mailto:vitaliksamusenko1997@gmail.com">vitaliksamusenko1997 @gmail.com</a></div>
+                                </li>
+                                <li class="contact__item">
+                                    <div class="contact__header">Github</div>
+                                    <div class="contact__text"><a href="https://github.com/VitalikSamusenko/">VitalikSamusenko</a></div>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </section>
+                    <section class="skills" id="skills">
+                        <div class="wrapper">
+                            <h2 class="title">Skills</h2>
+                            <hr class="line">
+                            <div class="skills__wrap">
+                                <ul class="skills__list">
+                                    <li class="skills__item">HTML5</li>
+                                    <li class="skills__item">CSS3</li>
+                                    <li class="skills__item">SASS/SCSS</li>
+                                    <li class="skills__item">Git</li>
+                                    <li class="skills__item">JavaScript (Basic)</li>
+                                    <li class="skills__item">C# (Basic)</li>
+            
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="right">
+                    <section class="experience" id="experience">
+                        <div class="wrapper">
+                            <h2 class="title">Experience</h2>
+                            <hr class="line">
+                            <div class="experience__item">
+                                    <div class="experience__data">2020-Present<br>Gomel carriage works</div>
+                                    <div class="experience__position">Software Engineer</div>
+                            </div>
+
+                            <div class="experience__item">
+                                <div class="experience__data">2019<br>Gomel carriage works</div>
+                                <div class="experience__position">Engineer</div>
+                        </div>
+                        </div>
+                    </section>
+                    <section class="code-example" id="code-example">
+                        <div class="wrapper">
+                            <h2 class="title">Code Example</h2>
+                            <hr class="line">
+                            <pre>
+                                <code>
+function updateLight(current)
+{
+    if (current=="green"){
+        return "yellow"
+    } else if (current=="yellow"){
+        return "red"
+    } else{
+        return "green"
+    }
+}        
+                                </code>
+                            </pre>
+                        </div>
+                    </section>
+                    <section class="languages" id="languages">
+                        <div class="wrapper">
+                            <h2 class="title">Languages</h2>
+                            <hr class="line">
+                            <ul class="languages__list">
+                                <li class="languages__item">Russian: native language</li>
+                                <li class="languages__item">English: A1 Elementary</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="educational-project" id="educational-project">
+                        <div class="wrapper">
+                            <h2 class="title">Educational Projects</h2>
+                            <hr class="line">
+                            <a href="https://github.com/VitalikSamusenko/rsschool-cv/blob/rsschool-cv-html/cv.md" class="educational-project__link">Rsschool: CV#1. Markdown & Git</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__item">
+                    <a href="https://github.com/VitalikSamusenko">
+                        <img src="./img/gh.png" alt="gh_logo">
+                    </a>
+                </div>
+                <div class="footer__item">&copy;2021</div>
+                <div class="footer__item">
+                    <a href="https://rs.school/js/">
+                        <img src="./img/rss.png" alt="rss_logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
