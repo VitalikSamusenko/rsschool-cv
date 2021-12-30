@@ -2,29 +2,34 @@
 
 body{
     background-color: rgb(145, 145, 145);
+    font-family: 'Poppins', sans-serif;
 }
 
 .container{
-    margin: 50px auto;
-    font-family: 'Poppins', sans-serif;
-    width: 1024px;
-    min-height: 1436px;
+    margin: 0 auto;
+    max-width: 1024px;
     background-color: #ffffff;
-    padding: 111px 103px 117px 103px;
 }
 
-.header{
+.header__wrapper{
     display: flex;
+    justify-content: space-between;
+    padding: 89px 82px 0 82px;
+}
+
+.header__img{
+    width: 40%;
 }
 
 .header__img img{
-    max-width: 410px;
+    width: 100%;
     border-radius: 0 30px 0 30px;
 }
 
 .header__name{
     margin: 0;
     font-size: 60px;
+    line-height: 60px;
     font-weight: 500;
     color: #454545;
 }
@@ -34,11 +39,12 @@ body{
 }
 
 .header__text{
-    margin-left: 68px;
+    width: 55%;
 }
 
 .header__profession{
     font-size: 27px;
+    line-height: 27px;
     font-weight: 400;
     letter-spacing: 0.1em;
     color: #454545;
@@ -52,6 +58,7 @@ body{
     letter-spacing: 0.075em;
     color: #454545;
 }
+
 .profile{
     margin-top: 44px;
 }
@@ -70,15 +77,19 @@ body{
     border: none;
 }
 
-.education{
-    margin-top: 37px;
-    background-color: rgba(248,220,191,0.5);
-    border-radius: 40px 0 0 0;
-    /* min-width: 296px; */
-}
-
 .wrapper{
     padding: 55px;
+}
+
+.main__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 82px 0 82px;
+}
+
+.education{
+    background-color: rgba(248,220,191,0.5);
+    border-radius: 40px 0 0 0;
 }
 
 .education__years{
@@ -126,21 +137,19 @@ body{
     margin-bottom: 0px;
 }
 
-main{
-    display: flex;
-    justify-content: space-between;
-}
-
 .skills{
     background-color: rgba(241, 231, 221,0.5);
-    min-width: 544px;
-    margin-top: 37px;
     border-radius: 40px 0 40px 0;
 }
 
-aside{
+.aside{
     width: 40%;
 }
+
+.article{
+    width: 55%;
+}
+
 .skills__wrap{
     display: flex;
     justify-content: space-between;
@@ -155,4 +164,20 @@ aside{
     font-size: 17px;
     font-weight: 500;
     color: #454545;
+}
+
+.code-example{
+    background-color: rgba(248, 220, 191,0.5);
+    margin-top: 27px;
+    border-radius: 0px 40px 0px 0px;
+} 
+
+.code-example pre{
+    margin: 0;
+}
+
+.languages{
+    background-color: rgba(241, 231, 221,0.5);
+    margin-top: 27px;
+    border-radius: 0 0 40px 0;
 }
